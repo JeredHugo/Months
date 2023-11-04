@@ -15,7 +15,6 @@
 
 
 
-/* CSS */
 #playButton {
   display: center;
   align-items: center;
@@ -98,7 +97,7 @@
         left: 0;
         width: 100%;
         height: 5px;
-        background: #BAC1BA;
+        background: white;
         transform-origin: bottom;
         transform: skewX(-45deg);
     }
@@ -110,7 +109,7 @@
         right: -5px;
         width: 5px;
         height: 100%;
-        background: #92A29C;
+        background: black;
         transform-origin: left;
         transform: skewY(-45deg);
     }
@@ -120,16 +119,17 @@
         height: 100%;
         position: relative;
         transform-origin: left;
-        transition: 0.7s;
+        transition: 0.75s;
     }
 
     .card .bark {
         position: absolute;
-        background: #e0e1dc;
+        background-image: url(Cover2.jpg);
+        background-size: 300px;
         width: 100%;
         height: 100%;
         opacity: 0;
-        transition: 0.7s;
+        transition: 0.75s;
     }
 
     .card .imgBox img {
@@ -152,16 +152,16 @@
         top: 0;
         left: 0;
         box-sizing: border-box;
-        padding: 0 0 0 20px;
+        padding: 0 0 0 10px;
         z-index: -1;
         margin-top: 30px;
     }
 
     .card .details p {
-        font-size: 15px;
-        line-height: 5px;
-        padding: 0 0 0 20px;
-        margin-top: -0.5px;
+        font-size: 14px;
+        line-height: 1px;
+        padding: 0 0 0 5px;
+        margin-top: 1px;
     }
 
     .card .details h4 {
@@ -176,18 +176,19 @@
     .text-right {
         text-align: right;
     }
-  /* CSS for customizing text below the card */
+ 
         .text-below-card {
-            font-size: 20px; /* Change the font size to your preference */
-            text-align: center; /* Center-align the text */
-            margin-top: 20px; /* Adjust the top margin to control the position */
+            font-size: 20px; 
+            text-align: center;
+            margin-top: 20px;
             color: #96e6b3;
         }
   .claim {
         text-align: left;
-        margin-top: 1px;
+        margin-top: 5px;
     }
 
+    
 
 </style>
 
@@ -196,8 +197,8 @@
   <!-- Text below the card -->
     <div class="text-below-card">
         <p>Hi Baby Rye! <3</p>
-        <p>Stressful day nanaman?</p>
-        <p>Anyways for you.</p>
+        <p>Goodluck sa Pre-Boards!</p>
+        <p>This is for you :></p>
        
         <!-- Add the audio element without controls and set to autoplay -->
         <audio id="audioPlayer" autoplay loop>
@@ -211,32 +212,40 @@
             <img src="Cover.jpg" alt="tenet slow">
         </div>
         <div class="details">
-            <h4 class="color1">Kamusta ikaw love?</h4>
-            <h4 class="color2 margin">Happy 5th Monthsary! HEHEHE...</h4>
+            <h4 class="color1">HAPPY 5TH MONTHSARY!</h4>
+            <h4 class="color2 margin">I love you so much!</h4>
+            <p>To my WIFEY RYE,</p>
             <p><br></p>
-            <p>To my Baby Rye,</p>
-            <p>Pang limang buwan, at ikaw pa din</p>
-            <p>Maraming salamat sa lahat ng saya</p>
-            <p>Kung di dahil sayo walang ngiti tong Jered</p>
-            <p>na to salamat pinaramdam mo saakin</p>
-            <p>Yung gantong pag mamahal mo, sa totoo</p>
-            <p>lang ramdam ko na ako ang pinakaswerte</p>
-            <p>na lalake dahil sayo at dahil dyan hahaha</p>
-            <p>Enjoy your dinner later as promised :)</p>
-            <p>Yung Jollibee haha I love you Baby Rye</p>
-          
+            <p>Super proud of you matatapos na ang review</p>
+            <p>I just wanna say everything you worked hard</p>
+            <p>will be worth it and I know na you deserve it</p>
+            <p>Know that you have my heart and I will love u</p>
+            <p>always babe and if you ever feel sad, alone</p>
+            <p>or empty I will do anything just to make your</p>
+            <p>days better. I will always put you first ikaw </p>
+            <p>na yan eh, You are the most beautiful person,</p>
+            <p>Inside and out. Pero anyways babe u know</p>
+            <p>I love you more than words can express :></p>
+            <p>I fall inlove with you all over again, everyday.</p>
+            <p>Eme, sige na mahal kumain ka na gutom ka na</p>
+            <p>Corny neto ni jered gawa gawa pa ng ganto.</p>
+            <p>HAHAHAH I love you po! Mwaps!</p>
+            <p>may flowers pala jan hehe claim mo </p>
             <p><br></p>
-          <div class="gift">
-            <span>Enjoy this flowers</span>
-        </div>
-          <div class="claim">
-          <button>
-            <a href="flower.html" target="_blank">Claim me.</a>
-        </button>
+           
             <p class="text-right">Love always and forever,</p>
             <p class="text-right">Jered Jeruel Hugo♥</p>
-
-        </div>
+            <div class="gift">
+            </div>
+              <div class="claim">
+              <button>
+                <a href="flower.html" target="_blank">Claim me.</a>
+            </button>
+            
+    
+            </div>
+          
+        
         
 
       
@@ -246,7 +255,7 @@
     </div>
 
 
-    <!-- JavaScript to play audio after user interaction -->
+   
     <script>
         const playButton = document.getElementById('playButton');
         const audioPlayer = document.getElementById('audioPlayer');
